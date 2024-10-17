@@ -20,9 +20,9 @@ namespace MeuAplicativo
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            ClasseNormal Cn = new ClasseNormal();
+            //ClasseNormal Cn = new ClasseNormal();
 
-            MessageBox.Show(Cn.Nome);
+            MessageBox.Show(ClasseEstatica.Nome);
         }
 
         private void Principal_Load(object sender, EventArgs e)

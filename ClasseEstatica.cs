@@ -9,12 +9,8 @@ namespace MeuAplicativo
 {
     static class ClasseEstatica
     {
-        public static string TituloSistema = "My Solution v1.2";
-
-        public static void ExibirNome()
-        {
-            //MessageBox.Show("O Sobrenome é: " + Sobre);
-        }
+        //public static string TituloSistema = "My Solution v1.2";
+        public const string Nome = "My Solution v1.2";
 
     }
 }
