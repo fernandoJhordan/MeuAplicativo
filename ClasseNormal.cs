@@ -9,12 +9,12 @@ namespace MeuAplicativo
 {
     class ClasseNormal
     {
-        public string Nome { get; set; }
-
-        public void MostrarNome()
-        {
-            MessageBox.Show("Meu nome é " + Nome);
+        public const string _nome = "V1.0";
+        //public string Nome { get; set; }
+        public string Nome {
+            get { return _nome; }
         }
+
 
     }
 }

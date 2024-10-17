@@ -12,27 +12,21 @@ namespace MeuAplicativo
 {
     public partial class Principal : Form
     {
+    
         public Principal()
         {
             InitializeComponent();
-
-            this.Text = ClasseEstatica.TituloSistema;
         }
 
         private void btnOK_Click(object sender, EventArgs e)
         {
             ClasseNormal Cn = new ClasseNormal();
-            Cn.Nome = "Fernando";
-            Cn.MostrarNome();
 
-            ClasseNormal Cn2 = new ClasseNormal();
-            Cn2.Nome = "Alex";
-            Cn2.MostrarNome();
+            MessageBox.Show(Cn.Nome);
+        }
 
-            //////////////////
-            ///
-            //ClasseEstatica. = "Brandão";
-            //ClasseEstatica.ExibirNome();
+        private void Principal_Load(object sender, EventArgs e)
+        {
 
         }
     }
